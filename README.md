@@ -12,10 +12,10 @@ This will convert emoji codes in strings to unicode emojis.
 
 
 ```typescript
-emojize("Emoji :laptop_computer: for deno :thumbs_up:") 
+emojize("Emoji :laptop_computer: for deno :+1:") 
 ```
 
-**Output**
+**Output string**
 
 
 > Emoji 💻 for deno 👍
@@ -26,7 +26,7 @@ emojize("Emoji :laptop_computer: for deno :thumbs_up:")
 ```typescript
 import { emojize }  from "https://raw.githubusercontent.com/99xt-incubator/emojideno/master/mod.ts"
 
-console.log(emojize("Emoji :laptop_computer: for deno :thumbs_up:"));
+console.log(emojize("Emoji :laptop_computer: for deno :+1:"));
 ```
 
 **How to run sample?**
